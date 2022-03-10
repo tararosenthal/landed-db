@@ -40,7 +40,7 @@
 			const imgs = document.querySelectorAll("img");
 
 			for (const img of imgs) {
-				let imgSrcFragment = img.src.substring(0, imgSrcFragment.lastIndexOf("."));
+				const imgSrcFragment = img.src.substring(0, img.src.lastIndexOf("."));
 				img.src = `${imgSrcFragment}.jpg`;
 			}
 		}
