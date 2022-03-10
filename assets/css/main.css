@@ -2881,7 +2881,7 @@ body.landing #header {
   text-align: center;
   z-index: 21;
 }
-#banner .webp-fix {
+#banner.webp-fix {
   background-image: url("../../images/banner-medium.jpg");
 }
 #banner:before {

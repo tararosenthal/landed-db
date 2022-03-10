@@ -1582,7 +1582,7 @@
 		text-align: center;
 		z-index: (_misc(max-spotlight) + 1);
 
-		.webp-fix {
+		&.webp-fix {
 			background-image: url('../../images/banner-medium.jpg');
 		}
 
