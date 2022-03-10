@@ -30,7 +30,7 @@ window.addEventListener("load", function(){
 });
 
 function assignSupportedImageType(feature, result) {
-	if (result) {
+	if (!result) {
 		document.getElementById("banner").classList.add("webp-fix");
 		const imgs = document.querySelectorAll("img");
 
